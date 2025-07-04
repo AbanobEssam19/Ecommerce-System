@@ -14,4 +14,8 @@ public class Customer {
     public void updateBalance(double amount) {
         this.balance -= amount;
     }
+
+    public void printBalance() {
+        System.out.println("Customer current balance = " + this.balance);
+    }
 }

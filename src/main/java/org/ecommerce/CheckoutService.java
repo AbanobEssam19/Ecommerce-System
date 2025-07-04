@@ -38,7 +38,8 @@ public class CheckoutService {
         System.out.println("-----------------------");
         System.out.println("Subtotal   " + subtotal);
         System.out.println("Shipping   " + shipping);
-        System.out.println("Amount   " + total);
+        System.out.println("Amount   " + total + '\n');
+        customer.printBalance();
         cart.clearCart();
     }
 }
